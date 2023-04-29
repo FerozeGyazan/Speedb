@@ -1,3 +1,4 @@
+/* styles for desktop */
 body {
   margin: 0;
   padding: 0;
@@ -61,4 +62,17 @@ p {
   font-size: 24px;
   text-align: center;
   margin: 20px 0;
+}
+
+/* media query for smaller screens */
+@media (max-width: 600px) {
+  main {
+    margin: 10px;
+  }
+
+  section {
+    max-width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+  }
 }
